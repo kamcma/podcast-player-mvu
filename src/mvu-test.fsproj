@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <WebSharperProject>BundleOnly</WebSharperProject>
+    <WebSharperBundleOutputDir>wwwroot/js</WebSharperBundleOutputDir>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Utility.fs" />
+    <Compile Include="iTunesClient/iTunesClientModels.fs" />
+    <Compile Include="iTunesClient/iTunesClient.fs" />
+    <Compile Include="App.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WebSharper" Version="4.5.*" />
+    <PackageReference Include="WebSharper.FSharp" Version="4.5.*" />
+    <PackageReference Include="WebSharper.UI" Version="4.5.*" />
+    <PackageReference Include="WebSharper.Mvu" Version="4.5.*" />
+  </ItemGroup>
+
+</Project>

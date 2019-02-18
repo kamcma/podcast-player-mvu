@@ -1,0 +1,2 @@
+[<WebSharper.JavaScript>]
+module Utility
