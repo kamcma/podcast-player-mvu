@@ -8,7 +8,10 @@
   <ItemGroup>
     <Compile Include="iTunesClient/iTunesClientModels.fs" />
     <Compile Include="iTunesClient/iTunesClient.fs" />
-    <Compile Include="App.fs" />
+    <Compile Include="Model.fs" />
+    <Compile Include="Update.fs" />
+    <Compile Include="View.fs" />
+    <Compile Include="Program.fs" />
   </ItemGroup>
 
   <ItemGroup>
