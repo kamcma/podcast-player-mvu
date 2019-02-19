@@ -1,12 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
-    <WebSharperProject>BundleOnly</WebSharperProject>
-    <WebSharperBundleOutputDir>wwwroot/js</WebSharperBundleOutputDir>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <WebSharperProject>Bundle</WebSharperProject>
+    <WebSharperBundleOutputDir>wwwroot/Content</WebSharperBundleOutputDir>
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Utility.fs" />
     <Compile Include="iTunesClient/iTunesClientModels.fs" />
     <Compile Include="iTunesClient/iTunesClient.fs" />
     <Compile Include="App.fs" />
