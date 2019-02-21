@@ -3,6 +3,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <WebSharperProject>Bundle</WebSharperProject>
     <WebSharperBundleOutputDir>wwwroot/Content</WebSharperBundleOutputDir>
+    <WebSharperSourceMap>true</WebSharperSourceMap>
   </PropertyGroup>
 
   <ItemGroup>
