@@ -11,7 +11,3 @@ type Model =
         {
             PodcastSearchResults = List.Empty
         }
-
-type Message =
-    | PodcastSearch of string
-    | PodcastSearchReturn of iTunesResult list

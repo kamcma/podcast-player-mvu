@@ -6,6 +6,7 @@ open WebSharper.UI.Templating
 open WebSharper.UI.Client
 open WebSharper.Mvu
 open Model
+open Update
 
 type IndexHtml = Template<"wwwroot/index.html", ClientLoad.FromDocument>
 
